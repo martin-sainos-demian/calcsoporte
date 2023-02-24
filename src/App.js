@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import menu from './comps/Menu'
+import Menu from './comps/Menu'
 import './App.css';
 
 function App() {
   return (
     <>
-
+      <Menu></Menu>
     </>
   );
 }
