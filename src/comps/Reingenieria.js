@@ -1,6 +1,9 @@
+import '../App.css';
+
 const Reingenieria = () => {
     return(
         <>
+
         </>
     )
 }
