@@ -7,6 +7,8 @@ const Reingenieria = () => {
         <br></br>
         <Footer></Footer>
         <br></br>
+         <button className="buttonDemma">calcular</button>
+         <br></br>
         </>
     )
 }

@@ -7,7 +7,6 @@ import Ambas from "./Ambas";
 import Navbar from "./Navbar";
 
 const Menu = () => {
-    [func, setFunc] = useState();
     return(
         <>
         <HashRouter>
@@ -15,14 +14,10 @@ const Menu = () => {
             <Titulo></Titulo>
             <Routes>
                 <Route exact path='/' element={<p>eliga un calculo</p>}></Route>
-                <Route path='/mantenimiento' element={<Mantenimiento onClick={setFunc}></Mantenimiento>}></Route>
-                <Route path='/reingenieria' element={<Reingenieria onClick={setFunc}></Reingenieria>}></Route>
-                <Route path='/ambas' element={<Ambas onClick={setFunc}></Ambas>}></Route>
+                <Route path='/mantenimiento' element={<Mantenimiento></Mantenimiento>}></Route>
+                <Route path='/reingenieria' element={<Reingenieria></Reingenieria>}></Route>
+                <Route path='/ambas' element={<Ambas></Ambas>}></Route>
             </Routes>
-            <p className="res" id="res"></p>
-            <br></br>
-            <button className="buttonDemma" onClick={func}>calcular</button>
-            <br></br>
         </HashRouter>
         </>
     )

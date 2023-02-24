@@ -1,24 +1,28 @@
 import Footer from "./Footer";
 
 const Mantenimiento = (params) => {
-   params.setFunc(showCMan);
-     return(
-         <>
-            <br></br>
-            <input type="number" placeholder="P1" className="inputDemma" id="P1"></input>
-            <br></br>
-            <input type="number" placeholder="P2" className="inputDemma" id="P2"></input>
-            <br></br>
-            <input type="number" placeholder="P3" className="inputDemma" id="P3"></input>
-            <br></br>
-            <Footer></Footer>
-            <br></br>
-         </>
-     )
+   return(
+      <>
+         <br></br>
+         <input type="number" placeholder="P1" className="inputDemma" id="P1"></input>
+         <br></br>
+         <input type="number" placeholder="P2" className="inputDemma" id="P2"></input>
+         <br></br>
+         <input type="number" placeholder="P3" className="inputDemma" id="P3"></input>
+         <br></br>
+         <Footer></Footer>
+         <br></br>
+         <button className="buttonDemma" onClick={showCMan}>calcular</button>
+         <br></br>
+         <p className="res" id="resM"></p>
+         <br></br>
+      </>
+   )
 }
 
 const showCMan = () => {
-   document.getElementById("res").innerHTML = cMan();
+   document.getElementById("resM").innerHTML = cMan();
+   return cMan();
 }
 
 const cMan = () => {
