@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.2104b711.js",
-    "static/js/787.c0cfe6f5.chunk.js": "/static/js/787.c0cfe6f5.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.2104b711.js.map": "/static/js/main.2104b711.js.map",
-    "787.c0cfe6f5.chunk.js.map": "/static/js/787.c0cfe6f5.chunk.js.map"
+    "main.css": "/calcsoporte/static/css/main.3325aa9c.css",
+    "main.js": "/calcsoporte/static/js/main.4e64645a.js",
+    "static/js/787.c0cfe6f5.chunk.js": "/calcsoporte/static/js/787.c0cfe6f5.chunk.js",
+    "static/media/logo.svg": "/calcsoporte/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/calcsoporte/index.html",
+    "main.3325aa9c.css.map": "/calcsoporte/static/css/main.3325aa9c.css.map",
+    "main.4e64645a.js.map": "/calcsoporte/static/js/main.4e64645a.js.map",
+    "787.c0cfe6f5.chunk.js.map": "/calcsoporte/static/js/787.c0cfe6f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2104b711.js"
+    "static/css/main.3325aa9c.css",
+    "static/js/main.4e64645a.js"
   ]
 }
