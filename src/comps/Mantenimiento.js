@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 
-const Mantenimiento = () => {
+const Mantenimiento = (params) => {
+   params.setFunc(showCMan);
      return(
          <>
             <br></br>
@@ -10,7 +11,7 @@ const Mantenimiento = () => {
             <br></br>
             <input type="number" placeholder="P3" className="inputDemma" id="P3"></input>
             <br></br>
-            <Footer onClick={showCMan}></Footer>
+            <Footer></Footer>
             <br></br>
          </>
      )
