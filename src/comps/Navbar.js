@@ -5,7 +5,7 @@ const Navbar = () => {
     
     const navMan = () => {
         console.log("navigate to mantenimiento");
-        nav("/mantenimieniento");
+        nav("/mantenimiento");
     }
     const navReIng = () => {
         console.log("navigate to reingenieria");
@@ -19,7 +19,7 @@ const Navbar = () => {
     return(
         <>
             <div className="navBarDemma">
-                <button className="navBarElementDemma" onClick={navMan}>mantenimieniento</button>
+                <button className="navBarElementDemma" onClick={navMan}>mantenimiento</button>
                 <button className="navBarElementDemma" onClick={navReIng}>reingenieria</button>
                 <button className="navBarElementDemma" onClick={navAmbas}>ambas</button>
             </div>
