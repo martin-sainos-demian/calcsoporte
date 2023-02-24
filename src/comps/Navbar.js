@@ -1,11 +1,14 @@
+import {useNavigate} from "react-router-dom"
+
 const Navbar = () => {
+    const nav = useNavigate();
     return(
         <>
-        <div className="navBarDemma">
-            <button className="navBarElementDemma">1</button>
-            <button className="navBarElementDemma">2</button>
-            <button className="navBarElementDemma">3</button>
-        </div>
+            <div className="navBarDemma">
+                <button className="navBarElementDemma" onClick={nav("/mantenimieniento")}>mantenimieniento</button>
+                <button className="navBarElementDemma" onClick={nav("/reingenieria")}>reingenieria</button>
+                <button className="navBarElementDemma" onClick={nav("/ambas")}>ambas</button>
+            </div>
         </>
     )
 }

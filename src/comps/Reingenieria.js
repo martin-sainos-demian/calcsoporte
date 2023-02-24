@@ -5,8 +5,8 @@ const Reingenieria = () => {
         <>
         <br></br>
         <br></br>
-            <Footer></Footer>
-            <br></br>
+        <Footer></Footer>
+        <br></br>
         </>
     )
 }
