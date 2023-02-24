@@ -20,7 +20,7 @@ const Mantenimiento = (params) => {
    )
 }
 
-const showCMan = () => {
+export const showCMan = () => {
    document.getElementById("resM").innerHTML = cMan();
    return cMan();
 }
