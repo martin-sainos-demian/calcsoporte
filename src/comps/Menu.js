@@ -10,8 +10,19 @@ const Menu = () => {
         <HashRouter>
             <Routes>
                 <Route exact path='/' element={<p>a</p>}></Route>
-                <Route path='/mantenimiento' element={<Mantenimiento></Mantenimiento>}></Route>
-                <Route path='/reingenieria' element={<Reingenieria></Reingenieria>}></Route>
+                <Route path='/mantenimiento' element={<>
+                    <Mantenimiento></Mantenimiento>
+                    <input type="number" placeholder="L" className="inputDemma" id="L"></input>
+                    </>}></Route>
+                <Route path='/reingenieria' element={<>
+                    <Reingenieria></Reingenieria>
+                    <input type="number" placeholder="L" className="inputDemma" id="L"></input>
+                    </>}></Route>
+                <Route path='/ambas' element={<>
+                    <Mantenimiento></Mantenimiento>
+                    <Reingenieria></Reingenieria>
+                    <input type="number" placeholder="L" className="inputDemma" id="L"></input>
+                    </>}></Route>
             </Routes>
         </HashRouter>
         <Titulo></Titulo>
