@@ -4,7 +4,6 @@ import Reingenieria from "./Reingenieria";
 import Titulo from "./Titulo";
 import Ambas from "./Ambas";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 
 const Menu = () => {
     return(

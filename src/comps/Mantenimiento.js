@@ -1,4 +1,4 @@
-import '../App.css';
+import Footer from "./Footer";
 
 const Mantenimiento = () => {
      return(

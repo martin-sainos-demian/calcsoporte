@@ -1,5 +1,6 @@
 import Mantenimiento from "./Mantenimiento";
 import Reingenieria from "./Reingenieria";
+import Footer from "./Footer";
 
 const Ambas = () => {
     return(
