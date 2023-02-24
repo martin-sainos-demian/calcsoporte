@@ -5,12 +5,15 @@ import Titulo from "./Titulo";
 import Ambas from "./Ambas";
 import Navbar from "./Navbar";
 
+//<Navbar></Navbar>
+//<Titulo></Titulo>
+
 const Menu = () => {
     return(
         <>
-        <Navbar></Navbar>
-        <Titulo></Titulo>
         <HashRouter>
+            <Navbar></Navbar>
+            <Titulo></Titulo>
             <Routes>
                 <Route exact path='/' element={<p>a</p>}></Route>
                 <Route path='/mantenimiento' element={<Mantenimiento></Mantenimiento>}></Route>
