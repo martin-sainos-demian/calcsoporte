@@ -27,7 +27,7 @@ const Reingenieria = () => {
 }
 
 export const showCRe = () => {
-    document.getElementById("resM").innerHTML = cRe();
+    document.getElementById("resR").innerHTML = cRe();
     return cRe();
 }
 
