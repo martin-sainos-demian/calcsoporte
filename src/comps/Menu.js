@@ -14,9 +14,21 @@ const Menu = () => {
             <Titulo></Titulo>
             <Routes>
                 <Route exact path='/' element={<p>eliga un calculo</p>}></Route>
-                <Route path='/mantenimiento' element={<Mantenimiento></Mantenimiento>}></Route>
-                <Route path='/reingenieria' element={<Reingenieria></Reingenieria>}></Route>
-                <Route path='/ambas' element={<Ambas></Ambas>}></Route>
+                <Route path='/mantenimiento' element={<>
+                <Mantenimiento></Mantenimiento>
+                <br></br>
+                <input type="number" placeholder="L" className="inputDemma" id="L"></input>
+                </>}></Route>
+                <Route path='/reingenieria' element={<>
+                <Reingenieria></Reingenieria>
+                <br></br>
+                <input type="number" placeholder="L" className="inputDemma" id="L"></input>
+                </>}></Route>
+                <Route path='/ambas' element={<>
+                <Ambas></Ambas>
+                <br></br>
+                <input type="number" placeholder="L" className="inputDemma" id="L"></input>
+                </>}></Route>
             </Routes>
         </HashRouter>
         </>

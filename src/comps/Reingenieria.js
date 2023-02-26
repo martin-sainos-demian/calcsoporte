@@ -18,7 +18,7 @@ const Reingenieria = () => {
         <br></br>
         <Footer></Footer>
         <br></br>
-        <button className="buttonDemma" onClick={showCRe}>calcular</button>
+        <button className="buttonDemma" onClick={showCRe}>calcular reingenieria</button>
         <br></br>
         <p className="res" id="resR"></p>
         <br></br>

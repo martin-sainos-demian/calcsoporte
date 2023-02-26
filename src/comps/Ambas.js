@@ -10,7 +10,7 @@ const Ambas = () => {
             <br></br>
             <p id="res"></p>
             <br></br>
-            <button className="buttonDemma" onClick={show}>calcular</button>
+            <button className="buttonDemma" onClick={show}>calcular coste/beneficio</button>
             <br></br>
         </>
     )
@@ -23,7 +23,7 @@ const show = () => {
 
 const calc = () => {
     let resp = 0;
-    resp = showCMan / showCRe;
+    resp = showCMan() / showCRe();
     return resp;
 }
 

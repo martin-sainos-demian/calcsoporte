@@ -12,7 +12,7 @@ const Mantenimiento = (params) => {
          <br></br>
          <Footer></Footer>
          <br></br>
-         <button className="buttonDemma" onClick={showCMan}>calcular</button>
+         <button className="buttonDemma" onClick={showCMan}>calcular mantenimiento</button>
          <br></br>
          <p className="res" id="resM"></p>
          <br></br>
